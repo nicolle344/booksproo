@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BooksPro - Ebooks para crecer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --morado-pro: #4b0082;
+      --morado-pro-hover: #360061;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- NAV -->
+  <header class="bg-[color:var(--morado-pro)] text-white p-4 sticky top-0 z-50 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">BooksPro</h1>
+      <nav class="space-x-4">
+        <a href="#inicio" class="hover:underline">Inicio</a>
+        <a href="#marca" class="hover:underline">Sobre la marca</a>
+        <a href="#productos" class="hover:underline">Productos</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- INICIO -->
+  <section id="inicio" class="text-center py-16 px-4 bg-gray-100">
+    <img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Ebooks" class="mx-auto w-full max-w-3xl rounded-xl shadow mb-6">
+    <h2 class="text-4xl font-bold mb-4 text-[color:var(--morado-pro)]">Bienvenido a BooksPro</h2>
+    <p class="text-lg max-w-xl mx-auto">Tu destino para desbloquear nuevas ideas, habilidades y perspectivas a través de ebooks curados para inspirarte y ayudarte a crecer.</p>
+    <a href="#productos" class="inline-block mt-6 bg-[color:var(--morado-pro)] text-white px-6 py-2 rounded-full hover:bg-[color:var(--morado-pro-hover)] transition">Ver productos</a>
+  </section>
+
+  <!-- SOBRE LA MARCA -->
+  <section id="marca" class="py-16 px-6 max-w-4xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-4 text-[color:var(--morado-pro)]">Sobre la marca</h3>
+    <p class="text-gray-700 text-lg">En BooksPro, creemos que el conocimiento es la herramienta más poderosa. Por eso, hemos curado una colección diversa de ebooks diseñada para inspirarte, educarte y ayudarte a crecer en cada faceta de tu vida.</p>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-8 text-center text-[color:var(--morado-pro)]">Nuestros ebooks</h3>
+      <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
+        <div class="bg-white rounded-xl shadow p-4">
+          <img src="https://images.unsplash.com/photo-1558889453-24951d85c6b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="ebook" class="rounded-lg mb-4 w-full h-40 object-cover">
+          <h4 class="text-xl font-semibold">Ebook de Desarrollo Personal</h4>
+          <p class="text-gray-600">Aprende a mejorar tu mentalidad y alcanzar tus metas.</p>
+          <a href="https://wa.me/573245057587?text=Hola%20BooksPro,%20me%20interesa%20el%20ebook%20de%20Desarrollo%20Personal" target="_blank" class="mt-4 inline-block bg-[color:var(--morado-pro)] text-white px-4 py-2 rounded hover:bg-[color:var(--morado-pro-hover)]">Comprar</a>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+          <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="ebook productividad" class="rounded-lg mb-4 w-full h-40 object-cover">
+          <h4 class="text-xl font-semibold">Ebook de Productividad</h4>
+          <p class="text-gray-600">Domina tu tiempo y mejora tu enfoque diario.</p>
+          <a href="https://wa.me/573245057587?text=Hola%20BooksPro,%20me%20interesa%20el%20ebook%20de%20Productividad" target="_blank" class="mt-4 inline-block bg-[color:var(--morado-pro)] text-white px-4 py-2 rounded hover:bg-[color:var(--morado-pro-hover)]">Comprar</a>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+          <img src="https://images.unsplash.com/photo-1581093588401-69d5c397d6a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="ebook finanzas" class="rounded-lg mb-4 w-full h-40 object-cover">
+          <h4 class="text-xl font-semibold">Ebook de Finanzas Personales</h4>
+          <p class="text-gray-600">Aprende a ahorrar, invertir y manejar tu dinero con inteligencia.</p>
+          <a href="https://wa.me/573245057587?text=Hola%20BooksPro,%20me%20interesa%20el%20ebook%20de%20Finanzas%20Personales" target="_blank" class="mt-4 inline-block bg-[color:var(--morado-pro)] text-white px-4 py-2 rounded hover:bg-[color:var(--morado-pro-hover)]">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-16 px-6 max-w-4xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6 text-[color:var(--morado-pro)]">Contáctanos</h3>
+    <p class="mb-4">¿Tienes dudas o quieres un ebook específico? ¡Escríbenos!</p>
+    <ul class="space-y-2">
+      <li><strong>WhatsApp:</strong> <a href="https://wa.me/573245057587" class="text-[color:var(--morado-pro)] hover:underline" target="_blank">+57 324 5057587</a></li>
+      <li><strong>Instagram:</strong> <a href="https://instagram.com/booksproonline" class="text-[color:var(--morado-pro)] hover:underline" target="_blank">@booksproonline</a></li>
+      <li><strong>TikTok:</strong> <a href="https://tiktok.com/@booksproonline" class="text-[color:var(--morado-pro)] hover:underline" target="_blank">@booksproonline</a></li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[color:var(--morado-pro)] text-white text-center p-4">
+    <p>&copy; 2025 BooksPro. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
